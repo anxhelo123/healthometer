@@ -2,7 +2,6 @@ package al.ikubinfo.healthometer.users.entity;
 
 import al.ikubinfo.commons.entity.BaseEntity;
 import javax.persistence.*;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,6 +1,7 @@
 package al.ikubinfo.healthometer.users.controller;
 
 import static org.junit.Assert.assertEquals;
+
 import al.ikubinfo.healthometer.HealthometerApp;
 import al.ikubinfo.healthometer.HealthometerTestSupport;
 import al.ikubinfo.healthometer.users.dto.AuthDto;
