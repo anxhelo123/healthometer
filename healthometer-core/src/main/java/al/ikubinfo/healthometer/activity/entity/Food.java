@@ -19,4 +19,8 @@ public class Food extends BaseEntity {
 
   @Column(name = "caloriesGained")
   private int caloriesGained;
+
+  @ManyToOne
+  @JoinColumn(nullable=false)
+  private Activity activity;
 }

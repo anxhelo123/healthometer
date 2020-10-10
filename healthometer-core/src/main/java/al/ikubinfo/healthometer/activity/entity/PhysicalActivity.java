@@ -19,4 +19,8 @@ public class PhysicalActivity extends BaseEntity {
 
   @Column(name = "caloriesSpent")
   private int caloriesSpent;
+
+  @ManyToOne
+  @JoinColumn(nullable=false)
+  private Activity activity;
 }
